@@ -6,10 +6,9 @@ import CourseList from "../CourseList/CourseList";
 import Notifications from "../Notifications/Notifications";
 import BodySectionWithMarginBottom from "../BodySection/BodySectionWithMarginBottom";
 import BodySection from "../BodySection/BodySection";
-import { Stylesheet, css } from "aphrodite";
+import { StyleSheet, css } from "aphrodite";
 import PropTypes from "prop-types";
 import { getLatestNotification } from "../utils/utils";
-import 
 
 class App extends React.Component {
   constructor(props) {
@@ -75,7 +74,7 @@ class App extends React.Component {
   }
 }
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
   App: {
     height: "100vh",
     maxWidth: "100vw",
